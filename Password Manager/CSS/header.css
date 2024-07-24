@@ -1,0 +1,76 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+    box-shadow: 0px 0px 17px 0px;
+}
+
+.navbar-brand img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.navbar-brand .brand-text {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #dc3545;
+}
+
+.navbar-toggler {
+    background-color: red;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.nav-link {
+    color: #343a40;
+    padding: 10px 20px;
+}
+
+.nav-link:hover {
+    color: #dc3545;
+}
+
+.nav-link.text-danger {
+    color: #dc3545;
+}
+
+.btn-register {
+    margin-left: 10px;
+}
+
+/* Additional custom styles */
+.navbar-collapse {
+    justify-content: space-between; /* Ensures equal space between brand and links */
+}
+
+.navbar-nav > li {
+    margin-left: 20px; /* Adjusts spacing between navbar items */
+}
+
+.navbar-nav > li:last-child {
+    margin-right: 10px; /* Adds right margin to the last navbar item */
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin-left: auto; /* Center aligns navbar items on mobile */
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 10px; /* Adds space between navbar items on smaller screens */
+    }
+
+    .navbar-nav .btn-login {
+        transform: translateY(10px); /* Adjusts login button position */
+    }
+}

@@ -1,0 +1,130 @@
+body {
+    background-color: #f8f9fa;
+}
+.profile-content {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.profile-header {
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: center; /* Center align the header */
+}
+.profile-header h2 {
+    color: #212529;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.profile-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px auto 0; /* Added margin-top of 20px */
+    border: 5px solid #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.profile-details {
+    margin-bottom: 20px;
+}
+.profile-details .row {
+    margin-bottom: 10px;
+}
+.profile-details .col-md-3 {
+    font-weight: bold;
+  
+}
+.profile-details .col-md-9 {
+    color: #495057;
+}
+.edit-profile-btn {
+    margin-top: 20px;
+    text-align: center; /* Center align the button */
+}
+body {
+    background-color: #f8f9fa;
+}
+.container {
+    padding-top: 20px;
+}
+.sidebar {
+    background-color: #dc3545;
+    color: #fff;
+    padding-top: 1rem;
+    height: 100%;
+}
+.logo img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+.nav-link {
+    color: #fff;
+}
+.nav-link:hover,
+.nav-link.active {
+    background-color: #ffff;
+}
+.profile-content {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-left: 30px; /* Adjusted margin-left */
+    margin-top: 20px; /* Added margin-top for spacing */
+}
+.profile-header h2 {
+    color: #dc3545;
+    margin-bottom: 20px;
+}
+.profile-details {
+    margin-top: 20px;
+}
+.profile-details .row {
+    margin-bottom: 10px;
+    align-items: center;
+}
+.profile-details .col-md-3 {
+    font-weight: bold;
+    color: #dc3545; /* Red color for labels */
+    text-align: right; /* Align labels to the right */
+}
+.edit-profile-btn {
+    margin-top: 20px;
+}
+/* Profile Page Styles */
+
+.profile-content {
+    padding: 20px;
+}
+
+.profile-header {
+    margin-bottom: 20px;
+}
+
+.profile-details {
+    margin-bottom: 20px;
+}
+
+.edit-profile-btn {
+    text-align: right;
+    margin-top: 20px;
+}
+@media (max-width: 768px) {
+    .hidden {
+        display: none !important; /* Important to override Bootstrap's display property */
+    }
+}
+@media (min-width: 992px) {
+    .profile-content {
+        margin-left: auto; /* Auto margin on the left */
+        margin-right: auto; /* Auto margin on the right */
+        max-width: 600px; /* Adjust max-width as needed */
+    }
+}
+

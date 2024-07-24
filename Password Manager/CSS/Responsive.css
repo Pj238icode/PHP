@@ -1,0 +1,27 @@
+@media (max-width: 991.98px) {
+    /* Reduce sidebar width and adjust main content */
+    #sidebar {
+        width: 250px; /* Adjust as needed */
+    }
+
+    #main-content {
+        margin-left: 250px; /* Same as sidebar width */
+    }
+}
+
+@media (max-width: 767.98px) {
+    /* Further adjustments for smaller screens */
+    #sidebar {
+        width: 100%; /* Full width on smaller screens */
+        position: static;
+    }
+
+    #main-content {
+        margin-left: 0; /* No margin on small screens */
+    }
+}
+
+/* Ensure table responsiveness */
+.table-container {
+    overflow-x: auto; /* Allow horizontal scrolling on small screens */
+}

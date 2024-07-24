@@ -1,0 +1,22 @@
+body {
+
+    font-family: Arial, sans-serif;
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(184, 143, 118, 1) 72%, rgba(252, 176, 69, 1) 100%);
+}
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.btn-send-otp {
+    width: 100%;
+}

@@ -1,0 +1,33 @@
+        /* Custom styles */
+        body {
+            background-color: #f8f9fa;
+        }
+        .settings-content {
+            background-color: #ffffff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .settings-header {
+            border-bottom: 1px solid #dee2e6;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+            text-align: center; /* Center align the header */
+        }
+        .settings-header h2 {
+            color: #212529;
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .form-label {
+            font-weight: bold;
+        }
+        .form-control {
+            width: 100%;
+        }
+        .submit-btn {
+            margin-top: 20px;
+            text-align: center; /* Center align the button */
+        }
