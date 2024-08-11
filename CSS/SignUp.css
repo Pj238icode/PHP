@@ -1,0 +1,111 @@
+body {
+    background-color: #f8f9fa;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+.signup-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.signup-heading {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.signup-form .form-label {
+    font-weight: bold;
+}
+
+.signup-form .btn {
+    width: 100%;
+    padding: 10px;
+}
+
+.form-group img {
+    max-width: 100%;
+    height: auto;
+}
+
+.captcha-container {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 1134px) {
+    .navbar-nav .nav-link {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}
+
+.google-signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.google-signup button {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+}
+
+.google-signup img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+@media (max-width: 1134px) {
+    .navbar-nav .nav-link {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}
+nav{
+    
+    box-shadow: 0px 0px 3px 0px #000;
+}
+.sign-in-link {
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+}
+#sign-in{
+     text-decoration: none;
+     
+
+
+}
+.spinner-container {
+    position: fixed;
+    background: #fff;
+    color: blue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1050;
+    /* Bootstrap modal z-index is 1050 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Initially hidden */
+    height: 250vh;
+    width: 250vh;
+
+}
+
+
+
